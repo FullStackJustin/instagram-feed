@@ -1,0 +1,36 @@
+#titleBar{
+    background-color:white;
+    height:80px;
+    width:100%;
+}
+#title{
+    text-align:center;
+    font-size:25px;
+
+}
+#container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color:lightgrey;
+    border-top:25px solid lightgrey;
+}
+#post{
+    height: auto;
+    width:500px;
+    background-color: white;
+}
+#postHeader{
+    display: flex;
+    justify-content: space-between;
+    font-weight:900;
+    font-size: 20px;
+}
+#postHeaderDate{
+    font-weight:100;
+}
+#postPhoto{
+    max-width: 100%;
+    max-height: 100%;
+}
